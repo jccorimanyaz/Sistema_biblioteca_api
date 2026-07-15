@@ -1,0 +1,73 @@
+# ========================
+# Entorno Virtual Python
+# ========================
+venv/
+.venv/
+env/
+ENV/
+
+# ========================
+# Base de datos SQLite
+# ========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ========================
+# Caché de Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ========================
+# Archivos de distribución / build
+# ========================
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# ========================
+# Variables de entorno / Secretos
+# ========================
+.env
+.env.*
+*.env
+
+# ========================
+# IDEs y editores
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# Sistema operativo
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Logs y archivos temporales
+# ========================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ========================
+# Pytest / Coverage
+# ========================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml

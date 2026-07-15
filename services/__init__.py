@@ -1,0 +1,3 @@
+from services.prestamo_service import PrestamoService
+from services.reserva_service import ReservaService
+from services.multa_service import MultaService
